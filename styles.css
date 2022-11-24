@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+.GameContainer{
+    width: 60%;
+    margin: auto;
+    min-height: 30vw;
+    border: 10px solid rgb(141, 137, 137);
+    display: flex;
+    background: rgba(255, 217, 0, 0.534);
+    position: relative;
+    overflow: hidden;
+}
+
+.buttons{
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 40%;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.back{
+    background-color: red;
+    margin-right: 20px;
+}
+
+.next{
+    background-color: rgb(149, 248, 0);
+}
+
+
+.mover{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    margin: auto;
+    margin-bottom: 0px;
+    border-radius: 50%;
+}
+
+.attacker{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    z-index: -1px;
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    transition: 0.5s ease;
+}
